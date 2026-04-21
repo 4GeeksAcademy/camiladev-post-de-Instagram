@@ -1,0 +1,57 @@
+/* reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(247, 245, 245);
+ }
+#tittle{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    
+    
+ }
+ h1{
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: 2em;
+ }
+ .section{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 440px;
+   background-color: white;
+    margin: 50px auto 60px auto;
+    padding: 10px;
+ }
+ .header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+ }
+ .subtittle h2 {
+    font-size: 1em;
+    padding: 4px;
+ }
+ 
+ .date p {
+    font-size: 0.8em;
+    color: rgb(204, 203, 203);
+    padding: 4px;
+ }
+ .photo img{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+ }
